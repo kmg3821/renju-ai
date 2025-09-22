@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="data:,">
-  <title>Gomoku GUI (15x15)</title>
+  <title>Renju GUI</title>
   <style>
     :root{
       --board-color: #DEB887; /* light brown */
@@ -36,12 +36,11 @@
       <button onclick="startGame()">Start Game</button>
     </div>
     <div class="board-wrap">
-      <canvas id="board" width="720" height="720" aria-label="Gomoku board"></canvas>
+      <canvas id="board" width="720" height="720" aria-label="Renju board"></canvas>
     </div>
   </div>
 
   <script>
-    // Gomoku GUI: 15x15 intersections
     const canvas = document.getElementById('board');
     const ctx = canvas.getContext('2d');
 
