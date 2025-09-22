@@ -22,7 +22,7 @@ static void ev_handler(struct mg_connection *c, int ev, void *ev_data) {
     mg_http_message *hm = (struct mg_http_message *) ev_data;
     if (mg_match(hm->uri, mg_str("/"), NULL)) {
       mg_http_serve_opts opts = {};
-      mg_http_serve_file(c, hm, "gomoku.html", &opts);
+      mg_http_serve_file(c, hm, "renju.html", &opts);
     } 
     else if (mg_match(hm->uri, mg_str("/play"), NULL)) {
       std::cout << hm->body.buf << std::endl;
@@ -61,7 +61,7 @@ static void ev_handler(struct mg_connection *c, int ev, void *ev_data) {
 }
 
 int main(void) {
-  auto model = tflite::FlatBufferModel::BuildFromFile("gomoku.tflite");
+  auto model = tflite::FlatBufferModel::BuildFromFile("renju.tflite");
   if (!model) {
     std::cerr << "Failed to load model\n";
     return 1;
