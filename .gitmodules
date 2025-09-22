@@ -1,0 +1,6 @@
+[submodule "tensorflow"]
+	path = tensorflow
+	url = https://github.com/tensorflow/tensorflow.git
+[submodule "mongoose"]
+	path = mongoose
+	url = https://github.com/cesanta/mongoose.git
