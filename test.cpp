@@ -26,7 +26,7 @@ void print_board(board_t board) {
 }
 
 int main() {
-  auto model = tflite::FlatBufferModel::BuildFromFile("model.tflite");
+  auto model = tflite::FlatBufferModel::BuildFromFile("renju.tflite");
   if (!model) {
     std::cerr << "Failed to load model\n";
     return 1;
