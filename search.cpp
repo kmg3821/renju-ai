@@ -105,7 +105,7 @@ void predict(const board_t board, int8_t player, model_t& model) {
 static int16_t backpropagate(Tree tree, int32_t now, float_t value) {
   int16_t action;
   while(now != 0) {
-    uint32_t parent = tree[now].parent;
+    int32_t parent = tree[now].parent;
     action = tree[now].action;
     tree[parent].visit[action] += 1;
     tree[parent].value[action] += value;
