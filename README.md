@@ -10,7 +10,7 @@ Ninja build system is recommended for fast build.
 The following three files must be at the same directory:
 * renju binary (e.g. .exe)
 * renju.tflite
-* reju.html
+* renju.html
 
 Then,
 
