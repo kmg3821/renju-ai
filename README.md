@@ -8,7 +8,7 @@ Ninja build system is recommended for fast build.
 
 # How to run  
 Locate the following three files at the same directory:
-* renju binary (e.g. .exe)
+* renju executable (e.g. .exe)
 * renju.tflite
 * renju.html
 
