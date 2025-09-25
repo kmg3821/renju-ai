@@ -22,3 +22,7 @@ Then,
 # Note  
 The AI is not perfect. Sometimes, it makes mistakes, placing strange moves.  
 I will enhance the AI model sooner or later.
+
+
+# Trouble shooting
+* If ``error C4430: missing type specifier - int assumed. Note: C++ does not support default-int`` occurs during build, refer to the solution at https://github.com/tensorflow/tensorflow/issues/64376#issuecomment-2069774768
