@@ -20,8 +20,7 @@ Then,
 
 
 # Note  
-The AI is not perfect. Sometimes, it makes mistakes, placing strange moves.  
-I will enhance the AI model sooner or later.
+The AI is not perfect. Sometimes, it makes mistakes, placing strange moves. I will enhance the AI model sooner or later.
 
 
 # Trouble shooting
