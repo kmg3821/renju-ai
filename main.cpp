@@ -54,9 +54,6 @@ static void ev_handler(struct mg_connection *c, int ev, void *ev_data) {
       }
       mg_http_reply(c, 200, "Content-Type: text/plain\r\n", "%d,%d,%f", out.result, out.action, out.value);
     }
-    else if (mg_match(hm->uri, mg_str("/check"), NULL)) {
-
-    }
   }
 }
 
