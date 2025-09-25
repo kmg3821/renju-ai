@@ -14,7 +14,7 @@ Locate the following three files at the same directory:
 
 Then,
 
-1. Run the renju binary
+1. Run the renju executable
 2. Open ``localhost:8080`` in the browser
 3. Play
 
