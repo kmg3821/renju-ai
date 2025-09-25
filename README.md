@@ -6,7 +6,7 @@ Ninja build system is recommended for fast build.
 4. ``cmake --build . -j --config Release``
 
 
-# How to run  
+# How to play  
 Locate the following three files at the same directory:
 * renju executable (e.g. .exe)
 * renju.tflite
