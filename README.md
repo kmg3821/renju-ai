@@ -1,3 +1,6 @@
+![renju](https://github.com/user-attachments/assets/322a94b4-d045-4756-bdf1-88234579305b)
+
+
 # How to build  
 1. ``mkdir build``
 2. ``cd ./build``
