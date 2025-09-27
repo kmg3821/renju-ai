@@ -202,10 +202,10 @@ static void get_black_three_four(board_t board, const pos_t pos, int8_t& three, 
 	int8_t mark[BDSIZE][2];
 	int8_t ep = 0;
 	for (int8_t i = 0; i < 32; ++i) {
-		const int8_t p[2] = {
-			pos[0] + offset[i][0], 
-			pos[1] + offset[i][1]
-		};
+		int8_t p[2];
+		p[0] = pos[0] + offset[i][0]; 
+		p[1] = pos[1] + offset[i][1];
+
 		if (is_valid_move(board, p) == 0) {
 			mark[ep][0] = p[0];
 			mark[ep][1] = p[1];
