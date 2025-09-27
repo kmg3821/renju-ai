@@ -10,6 +10,7 @@ Tested on the lastest version (in 27 Sep 2025) of Windows, Ubuntu, and Raspberry
 * If ``missing type specifier - int assumed. Note: C++ does not support default-int`` error occurs, refer to the solution at https://github.com/tensorflow/tensorflow/issues/64376#issuecomment-2069774768
 * If ``undefined reference to 'xnn_something'`` error occurs, add ``-DTFLITE_ENABLE_XNNPACK=OFF`` to the cmake configuration.
 
+
 # How to play  
 Locate the following three files at the same directory:
 * renju executable (e.g. .exe)
@@ -24,6 +25,10 @@ Then,
 
 
 # Note  
-* The AI is not perfect. Sometimes, it makes mistakes, placing strange moves. I will enhance the AI model sooner or later.
+* The AI is not perfect. It could make mistakes, placing strange moves. I will enhance the AI model sooner or later.
 * As of now, error handling is poor. The code contains minimal functionality.
+
+
+# How was it made
+I used JAX ecosystem to create the AI model. The model is based on Alphazero. I made a big model first and distill it to a smaller one. Then, I converted it to tensorflow model. I'm going to upload training scripts later.
 
