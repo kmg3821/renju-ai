@@ -1,10 +1,10 @@
 # How to build  
-Ninja build system is recommended for fast build.
 1. ``mkdir build``
 2. ``cd ./build``
 3. ``cmake .. -DCMAKE_BUILD_TYPE=Release``
-4. ``cmake --build . -j --config Release``
+4. ``cmake --build . -j --config Release``  
 
+Tested on the lastest version of Windows, Ubuntu, and Raspberry Pi OS.
 
 # How to play  
 Locate the following three files at the same directory:
