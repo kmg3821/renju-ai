@@ -1,6 +1,7 @@
 #ifndef _OMOK_H_
 #define _OMOK_H_
 
+#include <cstring>
 #include <memory>
 
 #define BDLEN 15
