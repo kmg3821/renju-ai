@@ -80,7 +80,7 @@ int main(void) {
 
   struct mg_mgr mgr;
   mg_mgr_init(&mgr);
-  mg_http_listen(&mgr, "http://localhost:8080", ev_handler, NULL);
+  mg_http_listen(&mgr, "http://localhost:8080", ev_handler, NULL); // "http://:8080" for remote access
   for (;;) {
     mg_mgr_poll(&mgr, 1000);
   }
