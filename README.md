@@ -30,5 +30,5 @@ Then,
 
 
 # How was it made
-I used JAX ecosystem to create the AI model. The model is based on Alphazero. I made a big model first and distill it to a smaller one. Then, I converted it to tensorflow model. I'm going to upload training scripts later.
+I used JAX ecosystem to create the AI model. The model is based on Alphazero. I made a big model first and distill it to a smaller one. Then, I converted it to tensorflow model. I'm going to upload the full training scripts later.
 
