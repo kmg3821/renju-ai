@@ -26,4 +26,4 @@ Then,
 
 # Trouble shooting
 * If ``error C4430: missing type specifier - int assumed. Note: C++ does not support default-int`` occurs during build, refer to the solution at https://github.com/tensorflow/tensorflow/issues/64376#issuecomment-2069774768
-* If ``undefined reference to 'xnn_something`` error occurs during build, add ``-DTFLITE_ENABLE_XNNPACK=OFF`` to the cmake configuration.
+* If ``undefined reference to 'xnn_something'`` error occurs during build, add ``-DTFLITE_ENABLE_XNNPACK=OFF`` to the cmake configuration.
