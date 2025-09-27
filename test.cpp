@@ -1,3 +1,5 @@
+// cl test.cpp .\mongoose\mongoose.c /Zi /EHsc /nologo /std:c++20 /I .\mongoose
+
 #include "tensorflow/lite/interpreter.h"
 #include "tensorflow/lite/kernels/register.h"
 #include "tensorflow/lite/model.h"
