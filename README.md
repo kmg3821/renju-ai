@@ -28,8 +28,10 @@ Then,
 
 
 # Note  
-* The AI is not perfect. It could make mistakes, placing strange moves. I will enhance the AI model sooner or later.
 * As of now, error handling is poor. The code contains minimal functionality.
+* The AI is not 100% perfect. It could make mistakes, placing strange moves.
+* The model defeated some online Gomoku programs :  
+   <img width="530" height="259" alt="defeat1" src="https://github.com/user-attachments/assets/15859ff3-d0cb-4349-92f2-247cb62fb885" />
 
 
 # How was it made
