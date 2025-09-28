@@ -31,7 +31,7 @@ Then,
 * As of now, error handling is poor. The code contains minimal functionality.
 * The AI is not 100% perfect. It could make mistakes, placing strange moves.
 * The model defeated some online Gomoku programs :  
-   <img width="530" height="259" alt="defeat1" src="https://github.com/user-attachments/assets/15859ff3-d0cb-4349-92f2-247cb62fb885" />
+   <img width="509" height="254" alt="defeat2" src="https://github.com/user-attachments/assets/8448bf70-e7cc-4313-90fd-a1965fc9c3b0" />
 
 
 # How was it made
